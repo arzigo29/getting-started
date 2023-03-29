@@ -4,7 +4,7 @@ jobs:
   docker-build:
     runs-on: ubuntu-latest
     steps:
-      -name: checkout
-       uses: actions/checkout@2.7.0
-       -name: verify
-       run: ls
+      - name: checkout
+        uses: actions/checkout@2.7.0
+      - name: verify
+        run: ls
